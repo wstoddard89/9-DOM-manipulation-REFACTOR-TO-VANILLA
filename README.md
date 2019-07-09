@@ -36,7 +36,7 @@ After completing this assignment, you be able to effectively use
 
 * Build a jQuery image carousel that will continue to show the images.
 * Do not use any of the jQuery animation methods like `fadeIn` or `fadeOut` or even `animate`
-* You must use [this file](https://gist.github.com/overthemike/f804ab17c429ac921775) to put the content on the page.
+* You must use [this file](https://github.com/Rylee9951/carousel.js/blob/master/carousel.js) to put the content on the page.
 * Use the image below as an example
 
 ![jQuery Carousel](https://github.com/tiy-lv-frontend-2015-10/Assignment-10/raw/master/assets/carousel.gif "jQuery Carousel")
