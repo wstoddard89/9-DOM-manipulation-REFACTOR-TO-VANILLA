@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="accordion">
+    <div class="panel" id="panel1">
+      <label class="heading" onclick="showText1()" id="heading1"><h2>Section One</h2></label>
+      <p id="par1" class="showSlowly1">
+        A paragraph is a self-contained unit of discourse in writing dealing
+        with a particular point or idea. A paragraph consists of one or more
+        sentences. Though not required by the syntax of any language,
+        paragraphs are usually an expected part of formal writing, used to
+        organize longer prose.
+      </p>
+    </div>
+    <div class="panel">
+      <label class="heading" onclick="showText2()" onclick="showSlowly1()" id="heading2"><h2>Section Two</h2></label>
+      <p id="par2">
+        A paragraph is a self-contained unit of discourse in writing dealing
+        with a particular point or idea. A paragraph consists of one or more
+        sentences. Though not required by the syntax of any language,
+        paragraphs are usually an expected part of formal writing.
+      </p>
+    </div>
+    <div class="panel">
+      <label class="heading" onclick="showText3()" id="heading3"><h2>Section Three</h2></label>
+      <p id="par3">
+        A paragraph is a self-contained unit of discourse in writing dealing
+        with a particular point or idea. A paragraph consists of one or more
+        sentences.
+      </p>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
