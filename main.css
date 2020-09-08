@@ -42,7 +42,7 @@ html {
 .active {
   max-height: 120px;
   overflow: hidden;
-  transition: all 0.3s linear;
+  transition: all 0.4s linear;
 }
 
 .accordion-pgraph-content {
